@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-const downloadUrl = '/predict-app.apk';
+const downloadUrl = '/app-release.apk';
 
 export default function Home() {
   const [copied, setCopied] = useState(false);
